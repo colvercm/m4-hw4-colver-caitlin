@@ -1,0 +1,175 @@
+body {
+    background-color: ghostwhite;
+    max-width: 900px;
+    margin: auto;
+}
+
+header {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    background-color: ghostwhite;
+    overflow: hidden;
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    white-space: nowrap;
+    padding: 10px 0px 6px 0px;
+    border-bottom: 1px solid;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+}
+
+nav a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 8px 10px;
+}
+
+nav a:hover {
+    background-color: hotpink;
+    padding: 10px 12px;
+}
+
+h1 {
+    font-family: Cambria;
+    text-align: center;
+    color: hotpink;
+    font-size: 58px;
+}
+
+h2 {
+    font-family: Georgia;
+    text-align: center;
+}
+
+h3 {
+    font-family: Georgia;
+}
+
+p {
+    font-family: arial;
+}
+
+.picture > article > p {
+   color: black;
+   font-weight: 600;
+   font-size: 18px;
+   padding-bottom: auto;
+   text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    padding: 40px;
+}
+
+.button1 {
+    display: inline-block;
+    margin: 0px 360px 20px;
+    padding: 8px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    place-items: center;
+    background-color:#9365ff;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 300px;
+    text-decoration: none;
+}
+
+.button1:hover {
+    background-color: rgb(36, 204, 242)
+}
+
+.biosection {
+    background-color: rgba(36, 204, 242, 0.5);
+    overflow: hidden;
+}
+
+.biosection > h2 {
+    color: rgb(234, 11, 204);
+    text-align: center;
+    font-size: 30px;
+}
+
+section h3 {
+    font-style: italic;
+}
+
+.musicsection {
+    overflow: hidden;
+    background-image: url("images/soundboard.jpg");
+    background-position: 1550px;
+    max-width: 100%;
+    padding: 10px 30px;
+}
+
+.musicsection > h2 {
+    color: rgb(234, 11, 204);
+    font-size: 70px;
+    text-align: center;
+}
+
+.musicsection > p {
+    color: rgb(234, 11, 204);
+    font-weight: 700px;
+    text-align: center;
+    background-position: center;
+    font-size: 20px;
+    margin: 0px 30px, 0px, 50px;
+}
+
+.button2 {
+    border-radius: 10px;
+    padding: 10px 16px;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 350px;
+    font-family: sans-serif; 
+    background-color: whitesmoke;
+}
+
+.button2:hover {
+    background-color: rgb(234, 11, 204)
+}
+
+.discosection {
+    background-color: rgba(234, 11, 204, 0.5);
+    overflow: hidden;
+}
+
+.discosection > h2 {
+    font-size: 30px;
+}
+
+aside {
+    font-family: arial;
+    color: whitesmoke;
+    margin: -120px 0px 70px 450px;
+    font-style: italic;
+}
+
+ul {
+    font-family: arial;
+}
+
+footer {
+    font-family: sans-serif;
+    font-size: 8px;
+    text-align: center;
+}
